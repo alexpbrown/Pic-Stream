@@ -1,0 +1,23 @@
+body {
+  padding: 50px;
+  font-family: 'Droid Sans', sans-serif;
+  /*background: url('../images/seductive_deer.jpg');*/
+}
+
+a {
+  color: #00B7FF;
+}
+
+#upload {
+  background: #FFF;
+  text-align: center;
+  width: 25%;
+  margin: auto;
+}
+#images {
+  text-align: center;
+  margin: auto;
+}
+img {
+  border: 5px solid white;
+)

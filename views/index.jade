@@ -1,0 +1,14 @@
+div#upload
+  form(method='post')
+    label(for='url') Link to image:
+      input(type='text', name='url')
+    br
+    label(for='upload') Or upload:
+      input(type='file', name='upload')
+    br
+    input#sub_button(type='submit', value='Upload')
+
+div#images
+  each image in images
+    img(src='/user_images/'+image)
+    br

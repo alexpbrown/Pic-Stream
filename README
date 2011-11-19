@@ -1,0 +1,9 @@
+This project is a chance for me to learn node.js/express so be nice if things are dumb.
+
+The idea here was to make something that my friends could use to keep me updated on all of the funny pictures on reddit's front page (since I'm a hipster and unsubscribed from those subreddits long ago).
+
+Design:
+- single page blog post style thumbnails
+- upload form ajax drops down from top
+- socket.io updates page when new image is uploaded
+- jquery fade in to make the ladies swoon

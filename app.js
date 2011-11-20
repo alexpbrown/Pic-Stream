@@ -46,7 +46,7 @@ app.post('/upload', function(req, res) {
   images.push(file_path);
 
   function send_response() {
-    res.send("<div id='image'><img src='/user_images/"+file_path+"' /></div>");
+    res.send("<img src='/user_images/"+file_path+"' />");
   }
   var options = {
     hostname: url.parse(image_url).hostname,
